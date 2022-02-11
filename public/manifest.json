@@ -1,0 +1,15 @@
+{
+  "short_name": "gRPC-Web Demo - Alva",
+  "name": "Demo application for gRPC-Web",
+  "icons": [
+    {
+      "src": "alva.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

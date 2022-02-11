@@ -1,0 +1,98 @@
+.ant-btn {
+  border-radius: 6px !important;
+}
+
+.alva {
+  color: black !important;
+  border: rgb(255, 192, 0) !important;
+  background: rgb(255, 192, 0) !important;
+}
+
+.ant-steps-item-icon {
+  border-radius: 6px !important;
+  background: rgb(255, 192, 0) !important;
+  border: rgb(255, 192, 0) !important;
+  color: black;
+}
+
+.contact:hover,
+.contact:focus {
+  border-color: rgb(255, 192, 0) !important;
+  color: black !important;
+}
+
+.ant-steps-icon {
+  color: black !important;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.offerCard {
+  animation: fade-in-down ease 0.5s forwards !important;
+}
+
+.trackingItem {
+  animation: fade-in-down ease 0.5s forwards !important;
+}
+
+.ant-card-head {
+  border-radius: 10px 10px 0 0 !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+}
+.ant-card-actions {
+  border-radius: 0 0 10px 10px !important;
+}
+
+.ant-card {
+  border-radius: 10px !important;
+  animation: fade-in-left ease 1s forwards;
+}
+
+.ant-typography,
+.ant-typography-link {
+  animation: fade-in-left ease 1s forwards;
+}
+
+.disabled {
+  color: #00000040 !important;
+  border-color: #d9d9d9 !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.shake {
+  animation: shake 500ms infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0);
+  }
+  50% {
+    transform: translate(-5px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
